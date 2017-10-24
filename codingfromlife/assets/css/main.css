@@ -1,0 +1,157 @@
+body {
+	background: #cccccc;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: brown;
+	clip-path: polygon(17% 48%, 100% 48%, 79% 84%, 0 83%);
+	position: relative;
+}
+
+#pom-crown {
+	width: 30px;
+	height: 30px;
+	background: red;
+	clip-path: polygon(50% 67%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+	border-radius: 150px;
+	top: 280px;
+	left: 240px;
+	position: absolute;
+	z-index: 10;
+
+}
+
+#pom {
+	width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 150px;
+	top: 300px;
+	left: 200px;
+	position: absolute;
+	z-index: 10;
+}
+
+#shadow {
+	width: 100px;
+	height: 30px;
+	background: black;
+	border-radius: 150px;
+	top: 380px;
+	left: 200px;
+	position: absolute;
+	filter: blur(10px);
+	z-index: 1;
+}
+
+#donut-frosting {
+	width: 20px;
+	height: 20px;
+	background: pink;
+	border-radius: 150px;
+	top: 390px;
+	left: 300px;
+	position: absolute;
+}
+
+#donut-bottom {
+	width: 20px;
+	height: 20px;
+	background: pink;
+	border-radius: 150px;
+	top: 390px;
+	left: 300px;
+	position: absolute;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid orange;
+	border-bottom: 150px solid orange;
+	clip-path: polygon(47% 18%, 65% 18%, 75% 100%, 23% 100%);
+	position: absolute;
+	top: 289px;
+	left: 350px;
+}
+
+#square {
+	width: 150px;
+	height: 150px;
+	background: rgb(217, 189, 49);
+	clip-path: ellipse(43% 8% at 50% 50%);
+	transform: rotate(50deg);
+	top: 295px;
+	left: 260px;
+	position: absolute;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+
+#clip {
+	width: 90px;
+	height: 90px;
+	background: yellow;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	top: 269px;
+	left: 390px;
+	position: absolute;
+
+}
+
+#flowermiddle {
+	width: 30px;
+	height: 30px;
+	background: black;
+	border-radius: 150px;
+	top: 300px;
+	left: 419px;
+	position: absolute;
+	z-index: 10;
+}
+#bananatip {
+	width: 20px;
+	height: 20px;
+	background: black;
+	top: 403px;
+	left: 361px;
+	position: absolute;
+}
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
