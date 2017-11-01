@@ -773,9 +773,9 @@
 }
 
 #scaledown{
-	margin-left:350px;
+	margin-left:400px;
 	text-align: center;
-	transform: scale(2);
+	transform: scale(5);
 	transform-origin: top center;
 	position: relative;
 }
@@ -783,6 +783,13 @@
 	margin-left:470px;
 	text-align: center;
 	transform: scale(2);
+	transform-origin: top center;
+	position: relative;
+}
+#scalescalescale{
+	margin-left:800px;
+	text-align: center;
+	transform: scale(3);
 	transform-origin: top center;
 	position: relative;
 }
