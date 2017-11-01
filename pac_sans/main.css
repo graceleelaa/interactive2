@@ -763,14 +763,14 @@
 	/*text-align: center;*/
 }
 
-/*#scale{
+#scale{
 	text-align: center;
 	transform: scale(3);
 	transform-origin: top center;
 	height: 400px;
 	position: relative;
 	display: block;
-}*/
+}
 
 #scaledown{
 	margin-left:400px;
