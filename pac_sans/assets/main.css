@@ -21,6 +21,9 @@
 #pacsans{
 	background: #FFD131;
 }
+#sketches{
+	background: transparent;
+}
 
 .letters {
 	display: inline-block;
