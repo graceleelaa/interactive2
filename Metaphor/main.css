@@ -1,0 +1,25 @@
+#hello{
+    background: white;
+
+}
+
+.shapes {
+	display: inline-block;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin-top: 150px;
+	margin-left: 60px;
+
+}
+
+#eye1{
+	width: 100px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	/*z-index: 10;
+	position: absolute;*/
+}
